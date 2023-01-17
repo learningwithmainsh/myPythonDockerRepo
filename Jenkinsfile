@@ -58,10 +58,9 @@ stage('Docker Run') {
 
     } 
 
-post{
+//Sending email
+     post{
     
-
-
 always{
     
     emailext attachLog: true, to: 'mnshkmrpnd@gmail.com,manishkumarpndey144@gmail.com,manishkumarpandeyballia@gmail.com',
