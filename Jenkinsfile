@@ -1,7 +1,9 @@
 def buildNumber = BUILD_NUMBER
 pipeline {
      
+     #running master node
     agent any
+     
 
     environment {
         registry = "482834251634.dkr.ecr.ap-south-1.amazonaws.com/my-python-docker-repo"
