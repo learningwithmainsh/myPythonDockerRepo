@@ -1,7 +1,7 @@
 def buildNumber = BUILD_NUMBER
 pipeline {
      
-     #running master node
+     #running master node1
     agent any
      
 
